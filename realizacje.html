@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Michał Mazur">
+    <meta name="description" content="Portfolio junior front-end developera, Michała Mazura. Potrzebujesz strony? Skontaktuj się ze mną.">
+    <meta name="keywords" content="Strony Internetowe, sklepy, junior front-end developer, kodowanie psd, javascript, js, css, html">
+    <title>Michał Mazur Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&subset=latin-ext">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Facebook-->
+    <meta property="og:url" content="https://michalphs.github.io/realizacje.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Michał Mazur - Realizacje" />
+    <meta property="og:description" content="Portfolio Michała Mazura, junior front-end developera. Wykorzystuję takie technologie jak: html, css, javascript, bootstrap, sass"
+    />
+    <meta property="og:image" content="https://michalphs.github.io/img/fb/realizacje.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110996824-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-110996824-1');
+    </script>
+
+</head>
+
+<body>
+    <nav class="nav" aria-labelledby="nav-labal">
+        <h1 id="nav-label" class="nav__label"></h1>
+        <div class="nav__container">
+            <button class="nav__toggle toggle" aria-expanded="false" title="Otwórz/Zamknij menu">
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+                <span class="toggle__label">Otwórz/Zamknij menu</span>
+            </button>
+            <div class="nav__logo">
+                <h2 class="nav__name">Michał
+                    <span class="nav__name-color">Mazur</span>
+                </h2>
+                <p class="nav__text">Witam Cię na moim portfolio.</p>
+            </div>
+            <ul class="nav__list list">
+                <li class="list__item">
+                    <a href="/" class="list__link ">Strona Główna</a>
+                </li>
+                <li class="list__item">
+                    <a href="realizacje.html" class="list__link list__link--active">Realizacje</a>
+                </li>
+                <li class="list__item">
+                    <a href="o-mnie.html" class="list__link">O mnie</a>
+                </li>
+            </ul>
+            <div class="nav__box">
+                <a href="o-mnie.html" class="btn nav__btn">Spieszy mi się!</a>
+            </div>
+            <ul class="nav__social social">
+                <li class="social__item">
+                    <a href="https://github.com/michalphs" target="_blank" class="social__link" title="Github">
+                        <span class="icon-github-circled social__icon" aria-hidden="true" aria-label="Github"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://codepen.io/Michalphs" target="_blank" class="social__link" title="Codepen">
+                        <span class="icon-codeopen social__icon" aria-hidden="true" aria-label="Codepen"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://linkedin.com/in/michalphs" target="_blank" class="social__link" title="Linkedin">
+                        <span class="icon-linkedin social__icon" aria-hidden="true" aria-label="Linkedin"></span>
+                    </a>
+                </li>
+                <li class="social__item social__item-mail">
+                    <a href="mailto:michalphs@gmail.com" class="social__mail">michalphs@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="portfolio">
+        <div class="container portfolio__container">
+            <div class="row portfolio__row">
+                <header class="portfolio__header">
+                    <h1 class="portfolio__header__title">Realizacje</h1>
+                </header>
+                <section class="portfolio__arrows arrow">
+                    <button class="arrow__btn-left" title="Przewiń w lewo">
+                        <span class="icon-angle-left arrow-left" aria-hidden="true" aria-label="Przewiń w lewo"></span>
+                    </button>
+                    <button class="arrow__btn-right" title="Przewiń w prawo">
+                        <span class="icon-angle-right arrow-right" aria-hidden="true" aria-label="Przewiń w prawo"></span>
+                    </button>
+                </section>
+                <section class="portfolio__slider">
+                    <div class="portfolio__block">
+                        <div class="portfolio__image">
+                            <img src="img/mockups/mkagro.png" alt="Strona aplikacji mobilnej z darmowego pliku .psd" class="portfolio__img">
+                        </div>
+                        <div class="portfolio-description">
+                            <h2 class="portfolio-description__title">MK-agro Działosza</h2>
+                            <p class="portfolio-description__text">Strona stworzona dla gospodarstwa rolnego znajdującego się w Działoszy. Zleceniodawcą było studio JNM Design.</p>
+
+                            <h5 class="portfolio-description__tech">Wykorzystane technologie:</h5>
+                            <div class="portfolio-description__icons">
+                                <img src="img/logos/html.svg" class="portfolio-description__img" alt="HTML 5" title="HTML5">
+                                <img src="img/logos/css.svg" class="portfolio-description__img" alt="CSS3" title="CSS3">
+                                <img src="img/logos/sass.svg" class="portfolio-description__img" alt="Sass" title="SASS">
+                                <img src="img/logos/bootstrap.svg" class="portfolio-description__img" alt="Bootstrap" title="Bootstrap">
+                                <img src="img/logos/js.svg" class="portfolio-description__img" alt="JavaScript" title="JavaScript">
+                                <img src="img/logos/jquery.gif" class="portfolio-description__img" alt="Jquery" title="Jquery">
+
+                            </div>
+                            <a href="http://mkagro-działosza.pl" target="_blank" class="btn btn--live">Zobacz online</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__block">
+                        <div class="portfolio__image">
+                            <img src="img/mockups/heyu2.png" alt="Strona aplikacji mobilnej z darmowego pliku .psd" class="portfolio__img">
+                        </div>
+                        <div class="portfolio-description">
+                            <h2 class="portfolio-description__title">HeyU</h2>
+                            <p class="portfolio-description__text">Strona aplikacji mobilnej zrealizowana z darmowego projektu .psd, starałem wykonać się ją w metodologi
+                                BEM, oraz czystym javascripcie, jedynie została w niej wykorzystana lekka biblioteka siema.js.
+                                Stronę zrobiłem w ramach treningu.</p>
+
+                            <h5 class="portfolio-description__tech">Wykorzystane technologie:</h5>
+                            <div class="portfolio-description__icons">
+                                <img src="img/logos/html.svg" class="portfolio-description__img" alt="HTML 5" title="HTML5">
+                                <img src="img/logos/css.svg" class="portfolio-description__img" alt="CSS3" title="CSS3">
+                                <img src="img/logos/sass.svg" class="portfolio-description__img" alt="Sass" title="SASS">
+                                <img src="img/logos/js.svg" class="portfolio-description__img" alt="JavaScript" title="JavaScript">
+                            </div>
+                            <a href="https://michalphs.github.io/heyu/" target="_blank" class="btn btn--live">Zobacz online</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__block">
+                        <div class="portfolio__image">
+                            <img src="img/mockups/crossbox2.png" alt="Strona dla siłowni Crossbox" class="portfolio__img">
+                        </div>
+                        <div class="portfolio-description">
+                            <h2 class="portfolio-description__title">CrossBox</h2>
+                            <p class="portfolio-description__text">Strona stworzona dla siłowni znajdującej się w Oleśnicy została zrealizowana na zlecenie studia
+                                JNM Design.
+                                <span class="portfolio-description__text--small">Strona mogła ulec zmianie, ponieważ w domyśle miała zostać podpięta pod cms.</span>
+                            </p>
+                            <h3 class="portfolio-description__tech">Wykorzystane technologie:</h3>
+                            <div class="portfolio-description__icons">
+                                <img src="img/logos/html.svg" class="portfolio-description__img" alt="HTML 5" title="HTML5">
+                                <img src="img/logos/css.svg" class="portfolio-description__img" alt="CSS3" title="CSS3">
+                                <img src="img/logos/sass.svg" class="portfolio-description__img" alt="Sass" title="SASS">
+                                <img src="img/logos/js.svg" class="portfolio-description__img" alt="JavaScript" title="JavaScript">
+                            </div>
+                            <a href="http://crossboxolesnica.pl" target="_blank" class="btn btn--live">Zobacz online</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="js/siema.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

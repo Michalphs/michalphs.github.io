@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Michał Mazur">
+    <meta name="description" content="Portfolio junior front-end developera, Michała Mazura. Potrzebujesz strony? Skontaktuj się ze mną.">
+    <meta name="keywords" content="Strony Internetowe, sklepy, junior front-end developer, kodowanie psd, javascript, js, css, html">
+    <title>Michał Mazur Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&subset=latin-ext">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Facebook-->
+    <meta property="og:url" content="https://michalphs.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Michał Mazur Portfolio" />
+    <meta property="og:description" content="Portfolio Michała Mazura, junior front-end developera. Wykorzystuję takie technologie jak: html, css, javascript, bootstrap, sass" />
+    <meta property="og:image" content="https://michalphs.github.io/img/fb/home.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110996824-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-110996824-1');
+    </script>
+</head>
+
+<body>
+    <nav class="nav" aria-labelledby="nav-labal">
+        <h1 id="nav-label" class="nav__label"></h1>
+        <div class="nav__container">
+            <button class="nav__toggle toggle" aria-expanded="false" title="Otwórz/Zamknij menu">
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+                <span class="toggle__line"></span>
+                <span class="toggle__label">Otwórz/Zamknij menu</span>
+            </button>
+            <div class="nav__logo">
+                <h2 class="nav__name">Michał
+                    <span class="nav__name-color">Mazur</span>
+                </h2>
+                <p class="nav__text">Witam Cię na moim portfolio.</p>
+            </div>
+            <ul class="nav__list list">
+                <li class="list__item">
+                    <a href="/" class="list__link list__link--active">Strona Główna</a>
+                </li>
+                <li class="list__item">
+                    <a href="realizacje.html" class="list__link">Realizacje</a>
+                </li>
+                <li class="list__item">
+                    <a href="o-mnie.html" class="list__link">O mnie</a>
+                </li>
+            </ul>
+            <div class="nav__box">
+                <a href="o-mnie.html" class="btn nav__btn">Spieszy mi się!</a>
+            </div>
+            <ul class="nav__social social">
+                <li class="social__item">
+                    <a href="https://github.com/michalphs" target="_blank" class="social__link" title="Github">
+                        <span class="icon-github-circled social__icon" aria-hidden="true" aria-label="Github"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://codepen.io/Michalphs" target="_blank" class="social__link" title="Codepen">
+                        <span class="icon-codeopen social__icon" aria-hidden="true" aria-label="Codepen"></span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://linkedin.com/in/michalphs" target="_blank" class="social__link" title="Linkedin">
+                        <span class="icon-linkedin social__icon" aria-hidden="true" aria-label="Linkedin"></span>
+                    </a>
+                </li>
+                <li class="social__item social__item-mail">
+                    <a href="mailto:michalphs@gmail.com" class="social__mail">michalphs@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="home">
+        <div class="container home__container">
+            <div class="row home__row">
+                <header class="home__header header">
+                    <h1 class="header__title--bold">Michał Mazur</h1>
+                    <h2 class="header__title">junior front-end developer</h2>
+                </header>
+            </div>
+        </div>
+    </main>
+    <div class="cookie">
+        <p class="cookie__text">Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.</p>
+        <button class="cookie__btn btn">Spoko</button>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/cookie.js"></script>
+</body>
+
+</html>
